@@ -1,5 +1,5 @@
-%define version      0.0.1
-%define release      %mkrel 2
+%define version      0.0.4
+%define release      %mkrel 1
 
 %define scim_version 1.4.1
 
@@ -10,11 +10,9 @@ Release:	%{release}
 Group:		System/Internationalization
 License:	GPL
 URL:		http://www.homa.ne.jp/~ashie/linux/files
-Source0:	http://www.homa.ne.jp/~ashie/linux/files/%{name}-%{version}.tar.bz2
+Source0:	http://www.homa.ne.jp/~ashie/linux/files/%{name}-%{version}.tar.gz
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 Requires:	scim >= %{scim_version}
-Requires:	libgnomeui2_0 libpanel-applet-2_0
-Requires:	gnome-panel
 BuildRequires:  scim-devel >= %{scim_version}
 BuildRequires:  gnomeui2-devel gnome-panel-devel
 
@@ -62,5 +60,3 @@ fi
 %{_libdir}/bonobo/servers/*.server
 %{_libdir}/scim-1.0/scim-panel-gnome
 %{_libdir}/scim-applet
-
-
