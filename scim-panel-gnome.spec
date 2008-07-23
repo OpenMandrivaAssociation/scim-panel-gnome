@@ -1,5 +1,5 @@
 %define version      0.0.4
-%define release      %mkrel 1
+%define release      %mkrel 3
 
 %define scim_version 1.4.1
 
