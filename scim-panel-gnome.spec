@@ -9,7 +9,7 @@ Version:	%{version}
 Release:	%{release}
 Group:		System/Internationalization
 License:	GPL
-URL:		http://www.homa.ne.jp/~ashie/linux/files
+URL:		https://www.homa.ne.jp/~ashie/linux/files
 Source0:	http://www.homa.ne.jp/~ashie/linux/files/%{name}-%{version}.tar.gz
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 Requires:	scim >= %{scim_version}
