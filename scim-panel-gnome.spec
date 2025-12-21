@@ -13,6 +13,11 @@ URL:		https://www.homa.ne.jp/~ashie/linux/files
 Source0:	http://www.homa.ne.jp/~ashie/linux/files/%{name}-%{version}.tar.gz
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 Requires:	scim >= %{scim_version}
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  scim-devel >= %{scim_version}
 BuildRequires:  gnomeui2-devel gnome-panel-devel
 
